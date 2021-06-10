@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: App-B
+  namespace: insecure
+spec:
+  containers:
+    - name: app-b
+      image: nginx
